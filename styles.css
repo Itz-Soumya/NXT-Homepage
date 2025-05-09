@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Mountain\ Sunrise\ in\ Pastels.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: clamp(2rem, 5vw, 3rem);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #000;
+    width: 0;
+    animation: typing 1.5s steps(25, end) forwards;
+    margin-bottom: 20px;
+}
+.p1{
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:40px;
+    right:10px ;
+    z-index: 1000;
+  }
+@keyframes typing {
+    from { width: 0; }
+    to { width: 14ch; }
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+    input[type="text"]{
+    width: 200px;
+    height: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px; /* Add spacing between the text input and the button */
+  }
+  .search{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        background: #463d4d;
+        color: #fff;
+        border: solid 2px #fff;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 10px;
+    }
+  .card{
+    background: #463d4d;
+    padding: 0.5rem 1rem;
+    a{color: #fff;text-decoration:none;}
+    border:solid 2px #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }  
+ /* The switch itself */
+.switch {
+  position:fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: inline-block;
+  width: 60px;
+  height: 35px;
+}
+
+/* Hide default checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider design */
+.slider {
+  position:absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(Mountain\ Sunrise\ in\ Pastels.png);
+  background-size: cover;
+  background-position: center;  
+  transition: .4s;
+  border-radius: 34px;
+}
+
+/* Circle inside the slider */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+/* Toggle on */
+input:checked + .slider {
+  background: url(Lone\ Figure\ at\ Sunrise\ Peak.png);
+  background-size: cover;
+  background-position: center;  
+}
+
+/* Move the circle to the right when checked */
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Dark mode body */
+body.dark {
+  background-image: url(Lone\ Figure\ at\ Sunrise\ Peak.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-color 0.9s, color 0.3s;
+  h1{
+    color: #fff;
+    text-shadow: #fff;
+    border-right: 3px solid #fff;
+  }
+  .p1{
+    color: #fff;
+    text-shadow: #fff;
+  }
+input[type="text"]{
+    border: 2px solid #000;
+  }
+  .search{
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+  }
+  .card{
+    background: #fff;
+    a{color: #000;text-decoration:none;}
+    border: 2px solid #000;
+  }
+}
