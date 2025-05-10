@@ -3,12 +3,10 @@ THis Homepage is made by SG
 Use this page in your web browser as homepage.
 DONT TRY TO COPY THIS!!
 Enjoy.
-
-LINK.
+LINK FOR VIEWING.
 https://itz-soumya.github.io/NXT-Homepage/
 
-🔥 Make This Your Homepage – Here's How! 🔥
-Want instant access to awesome content every time you open your browser? Set [YourWebsiteName] as your homepage in just a few clicks. Here's how to do it based on your browser:
+🔥 Make This Your Homepage.Now 🔥
 
 🌐 Google Chrome
 Click the 3 dots (⋮) in the top-right corner.
@@ -17,7 +15,7 @@ Go to Settings → On Startup.
 
 Select Open a specific page or set of pages.
 
-Click Add a new page, then enter: https://yourwebsite.com.
+Click Add a new page, then enter: https://itz-soumya.github.io/NXT-Homepage/
 
 Boom—you’re set!
 
@@ -28,7 +26,7 @@ Go to Settings → Home.
 
 Under Homepage and new windows, select Custom URLs.
 
-Paste: https://yourwebsite.com.
+Paste: https://itz-soumya.github.io/NXT-Homepage/
 
 Done like a pro.
 
@@ -37,7 +35,7 @@ Go to Safari > Settings (or Preferences) from the menu bar.
 
 Under the General tab, find Homepage.
 
-Enter https://yourwebsite.com.
+Enter -https://itz-soumya.github.io/NXT-Homepage/
 
 Optional: Set “New windows open with” and “New tabs open with” to Homepage.
 
